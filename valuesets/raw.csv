@@ -1,0 +1,83 @@
+valueSetId,valueSetName,searchTerm,vocabularyId
+1516.myocardial-infarction-dx,Myocardial Infarction Diagnoses,^410.*,ICD9CM
+1516.myocardial-infarction-dx,Myocardial Infarction Diagnoses,^I21.*,ICD10CM
+1516.troponin-labs,Troponin Labs,10839-9,LOINC
+1516.troponin-labs,Troponin Labs,42757-5,LOINC
+1516.ecg-proc,Echocardiogram,0206T,CPT4
+1516.ecg-proc,Echocardiogram,93660,CPT4
+1516.ecg-proc,Echocardiogram,93229,CPT4
+1516.ecg-proc,Echocardiogram,93228,CPT4
+1516.ecg-proc,Echocardiogram,93745,CPT4
+1516.ecg-proc,Echocardiogram,93798,CPT4
+1516.ecg-proc,Echocardiogram,93042,CPT4
+1516.ecg-proc,Echocardiogram,93041,CPT4
+1516.ecg-proc,Echocardiogram,93040,CPT4
+1516.ecg-proc,Echocardiogram,95807,CPT4
+1516.ecg-proc,Echocardiogram,0180T,CPT4
+1516.ecg-proc,Echocardiogram,0179T,CPT4
+1516.ecg-proc,Echocardiogram,0178T,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,01920,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93454,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93455,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93457,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93459,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93458,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93461,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93460,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93456,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,33367005,SNOMED
+1516.coronary-angiogram-proc,Coronary Angiogram,93563,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93572,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,93571,CPT4
+1516.coronary-angiogram-proc,Coronary Angiogram,92975,CPT4
+1516.stroke-dx,Stroke Diagnoses,434.11,ICD9CM
+1516.stroke-dx,Stroke Diagnoses,^I63\.[0-3]+,ICD10CM
+1516.stroke-dx,Stroke Diagnoses,^I63\.[5-9]+,ICD10CM
+1516.stroke-meds,Stroke Medications,aspirin,RxNorm
+1516.stroke-meds,Stroke Medications,clopidogrel,RxNorm
+1516.carotid-duplex,Carotid Duplex,93880,CPT4
+1516.neurology-encounter,Neurology Encounter,702832002,SNOMED
+1516.neurology-encounter,Neurology Encounter,16879004,SNOMED
+1516.neurology-encounter,Neurology Encounter,38238005,SNOMED
+1516.neurology-encounter,Neurology Encounter,702887001,SNOMED
+1516.ct-scan-head-proc,CT Scan of Head,70450,CPT4
+1516.mri-brain-proc,MRI Brain,70554,CPT4
+1516.mri-brain-proc,MRI Brain,70555,CPT4
+1516.deep-vein-thrombosis-dx,Deep Vein Thrombosis Diagnoses,^453\.4.*,ICD9CM
+1516.deep-vein-thrombosis-dx,Deep Vein Thrombosis Diagnoses,^I82\.4.*,ICD10CM
+1516.d-dimer-fibrin-labs,D-Dimer Fibrin Labs,48065-7,LOINC
+1516.d-dimer-fibrin-labs,D-Dimer Fibrin Labs,48058-2,LOINC
+1516.d-dimer-fibrin-labs,D-Dimer Fibrin Labs,48066-5,LOINC
+1516.pulmonary-embolism-dx,Pulmonary Embolism Diagnoses,^415\.1.*,ICD9CM
+1516.pulmonary-embolism-dx,Pulmonary Embolism Diagnoses,^I26\.9.*,ICD10CM
+1516.ct-scan-chest,CT Scan of Chest,71250,CPT4
+1516.vq-scan,Ventilation-Perfusion Scan,78582,CPT4
+1516.mesenteric-splanchnic-thrombosis-dx,Mesenteric-Splanchnic Thrombosis Diagnoses,^557\.0.*,ICD9CM
+1516.mesenteric-splanchnic-thrombosis-dx,Mesenteric-Splanchnic Thrombosis Diagnoses,444.89,ICD9CM
+1516.mesenteric-splanchnic-thrombosis-dx,Mesenteric-Splanchnic Thrombosis Diagnoses,^I81.*,ICD10CM
+1516.mesenteric-splanchnic-thrombosis-dx,Mesenteric-Splanchnic Thrombosis Diagnoses,^K55\.0.*,ICD10CM
+1516.mesenteric-splanchnic-thrombosis-dx,Mesenteric-Splanchnic Thrombosis Diagnoses,^I82\.0.*,ICD10CM
+1516.mesenteric-splanchnic-thrombosis-dx,Mesenteric-Splanchnic Thrombosis Diagnoses,^I74\.8.*,ICD10CM
+1516.ultrasonography-proc,Ultrasonography,76999,CPT4
+1516.ct-scan-abdomen,CT Scan of Abdomen,1010526,CPT4
+1516.mri-proc,MRI,113091000,SNOMED
+1516.superficial-vein-thrombosis-dx,Superficial Vein Thrombosis Diagnoses,^453\.6.*,ICD9CM
+1516.superficial-vein-thrombosis-dx,Superficial Vein Thrombosis Diagnoses,451.89,ICD9CM
+1516.superficial-vein-thrombosis-dx,Superficial Vein Thrombosis Diagnoses,453.82,ICD9CM
+1516.superficial-vein-thrombosis-dx,Superficial Vein Thrombosis Diagnoses,I82.81,ICD10CM
+1516.superficial-vein-thrombosis-dx,Superficial Vein Thrombosis Diagnoses,^I80\.0.*,ICD10CM
+1516.superficial-vein-thrombosis-dx,Superficial Vein Thrombosis Diagnoses,I82.61,ICD10CM
+1516.other-arterial-thrombosis-dx,Other Arterial Thrombosis Diagnoses,^444\.1.*,ICD9CM
+1516.other-arterial-thrombosis-dx,Other Arterial Thrombosis Diagnoses,444.22,ICD9CM
+1516.other-arterial-thrombosis-dx,Other Arterial Thrombosis Diagnoses,^453\.3.*,ICD9CM
+1516.other-arterial-thrombosis-dx,Other Arterial Thrombosis Diagnoses,^I74.*,ICD10CM
+1516.other-arterial-thrombosis-dx,Other Arterial Thrombosis Diagnoses,^I65\.1.*,ICD10CM
+1516.other-arterial-thrombosis-dx,Other Arterial Thrombosis Diagnoses,^I82\.3.*,ICD10CM
+1516.placenta-thrombosis-dx,Placenta Thrombosis Diagnoses,^663\.6.*,ICD9CM
+1516.placenta-thrombosis-dx,Placenta Thrombosis Diagnoses,O43.813,ICD10CM
+1516.central-nervous-system-thrombosis-dx,Central Nervous System (CNS) Thrombosis Diagnoses,^437\.6.*,ICD9CM
+1516.central-nervous-system-thrombosis-dx,Central Nervous System (CNS) Thrombosis Diagnoses,^I67\.6.*,ICD10CM
+1516.endocarial-thrombosis-dx,Endocardial Thrombosis Diagnoses,996.71,ICD9CM
+1516.endocarial-thrombosis-dx,Endocardial Thrombosis Diagnoses,^444\.9.*,ICD9CM
+1516.endocarial-thrombosis-dx,Endocardial Thrombosis Diagnoses,^I34\.8.*,ICD10CM
+1516.endocarial-thrombosis-dx,Endocardial Thrombosis Diagnoses,^I51\.3.*,ICD10CM

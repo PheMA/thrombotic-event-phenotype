@@ -1,0 +1,397 @@
+{
+   "library" : {
+      "annotation" : [ {
+         "translatorOptions" : "",
+         "type" : "CqlToElmInfo"
+      } ],
+      "identifier" : {
+         "id" : "1516.thrombotic-event-level-3",
+         "version" : "1.0.0"
+      },
+      "schemaIdentifier" : {
+         "id" : "urn:hl7-org:elm",
+         "version" : "r1"
+      },
+      "usings" : {
+         "def" : [ {
+            "localIdentifier" : "System",
+            "uri" : "urn:hl7-org:elm-types:r1"
+         }, {
+            "localIdentifier" : "FHIR",
+            "uri" : "http://hl7.org/fhir",
+            "version" : "4.0.0"
+         } ]
+      },
+      "includes" : {
+         "def" : [ {
+            "localIdentifier" : "FHIRHelpers",
+            "path" : "FHIRHelpers",
+            "version" : "4.0.0"
+         } ]
+      },
+      "valueSets" : {
+         "def" : [ {
+            "name" : "Myocardial Infarction Diagnoses",
+            "id" : "1516.myocardial-infarction-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Stroke Diagnoses",
+            "id" : "1516.stroke-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Deep Vein Thrombosis Diagnoses",
+            "id" : "1516.deep-vein-thrombosis-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Pulmonary Embolism Diagnoses",
+            "id" : "1516.pulmonary-embolism-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Mesenteric-Splanchnic Thrombosis Diagnoses",
+            "id" : "1516.mesenteric-splanchnic-thrombosis-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Superficial Vein Thrombosis Diagnoses",
+            "id" : "1516.superficial-vein-thrombosis-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Other Arterial Thrombosis Diagnoses",
+            "id" : "1516.other-arterial-thrombosis-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Placenta Thrombosis Diagnoses",
+            "id" : "1516.placenta-thrombosis-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Central Nervous System (CNS) Thrombosis Diagnoses",
+            "id" : "1516.central-nervous-system-thrombosis-dx",
+            "accessLevel" : "Public"
+         }, {
+            "name" : "Endocardial Thrombosis Diagnoses",
+            "id" : "1516.endocarial-thrombosis-dx",
+            "accessLevel" : "Public"
+         } ]
+      },
+      "contexts" : {
+         "def" : [ {
+            "name" : "Patient"
+         } ]
+      },
+      "statements" : {
+         "def" : [ {
+            "name" : "Patient",
+            "context" : "Patient",
+            "expression" : {
+               "type" : "SingletonFrom",
+               "operand" : {
+                  "dataType" : "{http://hl7.org/fhir}Patient",
+                  "type" : "Retrieve"
+               }
+            }
+         }, {
+            "name" : "Event Type 1: Myocardial Infarction",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Myocardial Infarction Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 2: Stroke",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Stroke Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 3: DVT",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Deep Vein Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 4: PE",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Pulmonary Embolism Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 5: Mesenteric-Splanchnic Thrombosis",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Mesenteric-Splanchnic Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 6: Superficial Vein Thrombosis",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Superficial Vein Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 7: Other Arterial Thrombosis",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Other Arterial Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 8: Placenta Thrombosis",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Placenta Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 9: Central Nervous System (CNS) Thrombosis",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Central Nervous System (CNS) Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Event Type 10: Endocardial Thrombosis",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Exists",
+               "operand" : {
+                  "type" : "Query",
+                  "source" : [ {
+                     "alias" : "C",
+                     "expression" : {
+                        "dataType" : "{http://hl7.org/fhir}Condition",
+                        "codeProperty" : "code",
+                        "codeComparator" : "in",
+                        "type" : "Retrieve",
+                        "codes" : {
+                           "name" : "Endocardial Thrombosis Diagnoses",
+                           "type" : "ValueSetRef"
+                        }
+                     }
+                  } ],
+                  "relationship" : [ ]
+               }
+            }
+         }, {
+            "name" : "Case",
+            "context" : "Patient",
+            "accessLevel" : "Public",
+            "expression" : {
+               "type" : "Or",
+               "operand" : [ {
+                  "type" : "Or",
+                  "operand" : [ {
+                     "type" : "Or",
+                     "operand" : [ {
+                        "type" : "Or",
+                        "operand" : [ {
+                           "type" : "Or",
+                           "operand" : [ {
+                              "type" : "Or",
+                              "operand" : [ {
+                                 "type" : "Or",
+                                 "operand" : [ {
+                                    "type" : "Or",
+                                    "operand" : [ {
+                                       "type" : "Or",
+                                       "operand" : [ {
+                                          "name" : "Event Type 1: Myocardial Infarction",
+                                          "type" : "ExpressionRef"
+                                       }, {
+                                          "name" : "Event Type 2: Stroke",
+                                          "type" : "ExpressionRef"
+                                       } ]
+                                    }, {
+                                       "name" : "Event Type 3: DVT",
+                                       "type" : "ExpressionRef"
+                                    } ]
+                                 }, {
+                                    "name" : "Event Type 4: PE",
+                                    "type" : "ExpressionRef"
+                                 } ]
+                              }, {
+                                 "name" : "Event Type 5: Mesenteric-Splanchnic Thrombosis",
+                                 "type" : "ExpressionRef"
+                              } ]
+                           }, {
+                              "name" : "Event Type 6: Superficial Vein Thrombosis",
+                              "type" : "ExpressionRef"
+                           } ]
+                        }, {
+                           "name" : "Event Type 7: Other Arterial Thrombosis",
+                           "type" : "ExpressionRef"
+                        } ]
+                     }, {
+                        "name" : "Event Type 8: Placenta Thrombosis",
+                        "type" : "ExpressionRef"
+                     } ]
+                  }, {
+                     "name" : "Event Type 9: Central Nervous System (CNS) Thrombosis",
+                     "type" : "ExpressionRef"
+                  } ]
+               }, {
+                  "name" : "Event Type 10: Endocardial Thrombosis",
+                  "type" : "ExpressionRef"
+               } ]
+            }
+         } ]
+      }
+   }
+}
+

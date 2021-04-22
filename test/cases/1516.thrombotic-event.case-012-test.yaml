@@ -1,0 +1,43 @@
+---
+name: 012 Thrombotic Event NOT Case - MST, sonogram not in interval
+
+data:
+  - resourceType: Patient
+    name: Joe Smith
+    gender: male
+    birthDate: 1958-07-16
+
+  # MST dx
+  - resourceType: Condition
+    code: ICD10CM#I81 Portal vein thrombosis
+    onsetDateTime: "1998-12-12T16:00:00.000Z"
+
+  # anticoagulant
+  - resourceType: MedicationRequest
+    code: RXNORM#1008696 dalteparin / dihydroergotamine
+    authoredOn: "1998-12-12T17:00:00.000Z"
+    status: completed
+
+  # sonogram
+  - resourceType: Procedure
+    code: CPT#76999 Unlisted ultrasound procedure (eg, diagnostic, interventional)
+    performedDateTime: "1997-12-16T16:00:00.000Z"
+
+  # d-dimer fibrin
+  - resourceType: Observation
+    code: LOINC#48065-7 Fibrin D-dimer FEU
+    valueQuantity: 350 ng/mL
+    effectiveDateTime: "1998-12-12T18:00:00.000Z"
+
+results:
+  "Event Type 1: Myocardial Infarction": false
+  "Event Type 2: Stroke": false
+  "Event Type 3: DVT": false
+  "Event Type 4: PE": false
+  "Event Type 5: Mesenteric-Splanchnic Thrombosis": false
+  "Event Type 6: Superficial Vein Thrombosis": false
+  "Event Type 7: Other Arterial Thrombosis": false
+  "Event Type 8: Placenta Thrombosis": false
+  "Event Type 9: Central Nervous System (CNS) Thrombosis": false
+  "Event Type 10: Endocardial Thrombosis": false
+  Case: false

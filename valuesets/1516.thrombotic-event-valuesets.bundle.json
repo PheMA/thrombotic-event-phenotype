@@ -1,0 +1,2659 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.myocardial-infarction-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.myocardial-infarction-dx",
+        "name": "Myocardial Infarction Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "410.12",
+                  "display": "Acute myocardial infarction of other anterior wall, subsequent episode of care"
+                },
+                {
+                  "code": "410.2",
+                  "display": "Acute myocardial infarction, of inferolateral wall"
+                },
+                {
+                  "code": "410.20",
+                  "display": "Acute myocardial infarction of inferolateral wall, episode of care unspecified"
+                },
+                {
+                  "code": "410.21",
+                  "display": "Acute myocardial infarction of inferolateral wall, initial episode of care"
+                },
+                {
+                  "code": "410.7",
+                  "display": "Acute myocardial infarction, subendocardial infarction"
+                },
+                {
+                  "code": "410.9",
+                  "display": "Acute myocardial infarction, unspecified site"
+                },
+                {
+                  "code": "410.0",
+                  "display": "Acute myocardial infarction, of anterolateral wall"
+                },
+                {
+                  "code": "410.02",
+                  "display": "Acute myocardial infarction of anterolateral wall, subsequent episode of care"
+                },
+                {
+                  "code": "410.22",
+                  "display": "Acute myocardial infarction of inferolateral wall, subsequent episode of care"
+                },
+                {
+                  "code": "410.32",
+                  "display": "Acute myocardial infarction of inferoposterior wall, subsequent episode of care"
+                },
+                {
+                  "code": "410.92",
+                  "display": "Acute myocardial infarction of unspecified site, subsequent episode of care"
+                },
+                {
+                  "code": "410.01",
+                  "display": "Acute myocardial infarction of anterolateral wall, initial episode of care"
+                },
+                {
+                  "code": "410.00",
+                  "display": "Acute myocardial infarction of anterolateral wall, episode of care unspecified"
+                },
+                {
+                  "code": "410.4",
+                  "display": "Acute myocardial infarction, of other inferior wall"
+                },
+                {
+                  "code": "410.71",
+                  "display": "Subendocardial infarction, initial episode of care"
+                },
+                {
+                  "code": "410.91",
+                  "display": "Acute myocardial infarction of unspecified site, initial episode of care"
+                },
+                {
+                  "code": "410.30",
+                  "display": "Acute myocardial infarction of inferoposterior wall, episode of care unspecified"
+                },
+                {
+                  "code": "410.80",
+                  "display": "Acute myocardial infarction of other specified sites, episode of care unspecified"
+                },
+                {
+                  "code": "410.11",
+                  "display": "Acute myocardial infarction of other anterior wall, initial episode of care"
+                },
+                {
+                  "code": "410.60",
+                  "display": "True posterior wall infarction, episode of care unspecified"
+                },
+                {
+                  "code": "410.72",
+                  "display": "Subendocardial infarction, subsequent episode of care"
+                },
+                {
+                  "code": "410.5",
+                  "display": "Acute myocardial infarction, of other lateral wall"
+                },
+                {
+                  "code": "410.10",
+                  "display": "Acute myocardial infarction of other anterior wall, episode of care unspecified"
+                },
+                {
+                  "code": "410.62",
+                  "display": "True posterior wall infarction, subsequent episode of care"
+                },
+                {
+                  "code": "410",
+                  "display": "Acute myocardial infarction"
+                },
+                {
+                  "code": "410.3",
+                  "display": "Acute myocardial infarction, of inferoposterior wall"
+                },
+                {
+                  "code": "410.42",
+                  "display": "Acute myocardial infarction of other inferior wall, subsequent episode of care"
+                },
+                {
+                  "code": "410.50",
+                  "display": "Acute myocardial infarction of other lateral wall, episode of care unspecified"
+                },
+                {
+                  "code": "410.82",
+                  "display": "Acute myocardial infarction of other specified sites, subsequent episode of care"
+                },
+                {
+                  "code": "410.31",
+                  "display": "Acute myocardial infarction of inferoposterior wall, initial episode of care"
+                },
+                {
+                  "code": "410.1",
+                  "display": "Acute myocardial infarction, of other anterior wall"
+                },
+                {
+                  "code": "410.40",
+                  "display": "Acute myocardial infarction of other inferior wall, episode of care unspecified"
+                },
+                {
+                  "code": "410.51",
+                  "display": "Acute myocardial infarction of other lateral wall, initial episode of care"
+                },
+                {
+                  "code": "410.52",
+                  "display": "Acute myocardial infarction of other lateral wall, subsequent episode of care"
+                },
+                {
+                  "code": "410.6",
+                  "display": "Acute myocardial infarction, true posterior wall infarction"
+                },
+                {
+                  "code": "410.8",
+                  "display": "Acute myocardial infarction, of other specified sites"
+                },
+                {
+                  "code": "410.81",
+                  "display": "Acute myocardial infarction of other specified sites, initial episode of care"
+                },
+                {
+                  "code": "410.41",
+                  "display": "Acute myocardial infarction of other inferior wall, initial episode of care"
+                },
+                {
+                  "code": "410.70",
+                  "display": "Subendocardial infarction, episode of care unspecified"
+                },
+                {
+                  "code": "410.90",
+                  "display": "Acute myocardial infarction of unspecified site, episode of care unspecified"
+                },
+                {
+                  "code": "410.61",
+                  "display": "True posterior wall infarction, initial episode of care"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I21.11",
+                  "display": "ST elevation (STEMI) myocardial infarction involving right coronary artery"
+                },
+                {
+                  "code": "I21.29",
+                  "display": "ST elevation (STEMI) myocardial infarction involving other sites"
+                },
+                {
+                  "code": "I21.01",
+                  "display": "ST elevation (STEMI) myocardial infarction involving left main coronary artery"
+                },
+                {
+                  "code": "I21.02",
+                  "display": "ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery"
+                },
+                {
+                  "code": "I21.21",
+                  "display": "ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery"
+                },
+                {
+                  "code": "I21.09",
+                  "display": "ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall"
+                },
+                {
+                  "code": "I21.19",
+                  "display": "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall"
+                },
+                {
+                  "code": "I21",
+                  "display": "ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction"
+                },
+                {
+                  "code": "I21.0",
+                  "display": "ST elevation (STEMI) myocardial infarction of anterior wall"
+                },
+                {
+                  "code": "I21.1",
+                  "display": "ST elevation (STEMI) myocardial infarction of inferior wall"
+                },
+                {
+                  "code": "I21.2",
+                  "display": "ST elevation (STEMI) myocardial infarction of other sites"
+                },
+                {
+                  "code": "I21.3",
+                  "display": "ST elevation (STEMI) myocardial infarction of unspecified site"
+                },
+                {
+                  "code": "I21.4",
+                  "display": "Non-ST elevation (NSTEMI) myocardial infarction"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "54329005",
+                  "display": "Acute myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "703210007",
+                  "display": "Subsequent ST segment elevation myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "65547006",
+                  "display": "Acute myocardial infarction of inferolateral wall (disorder)"
+                },
+                {
+                  "code": "65547006",
+                  "display": "Acute myocardial infarction of inferolateral wall (disorder)"
+                },
+                {
+                  "code": "70211005",
+                  "display": "Acute myocardial infarction of anterolateral wall (disorder)"
+                },
+                {
+                  "code": "65547006",
+                  "display": "Acute myocardial infarction of inferolateral wall (disorder)"
+                },
+                {
+                  "code": "76593002",
+                  "display": "Acute myocardial infarction of inferoposterior wall (disorder)"
+                },
+                {
+                  "code": "57054005",
+                  "display": "Acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "194856005",
+                  "display": "Subsequent myocardial infarction (disorder)"
+                },
+                {
+                  "code": "418044006",
+                  "display": "Myocardial infarction in recovery phase (disorder)"
+                },
+                {
+                  "code": "194858006",
+                  "display": "Subsequent myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "194857001",
+                  "display": "Subsequent myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "703211006",
+                  "display": "Subsequent ST segment elevation myocardial infarction (disorder)"
+                },
+                {
+                  "code": "70211005",
+                  "display": "Acute myocardial infarction of anterolateral wall (disorder)"
+                },
+                {
+                  "code": "70211005",
+                  "display": "Acute myocardial infarction of anterolateral wall (disorder)"
+                },
+                {
+                  "code": "70422006",
+                  "display": "Acute subendocardial infarction (disorder)"
+                },
+                {
+                  "code": "57054005",
+                  "display": "Acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "194862000",
+                  "display": "Hemopericardium due to and following acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "194866002",
+                  "display": "Rupture of chordae tendinae due to and following acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "194868001",
+                  "display": "Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "394710008",
+                  "display": "First myocardial infarction (disorder)"
+                },
+                {
+                  "code": "76593002",
+                  "display": "Acute myocardial infarction of inferoposterior wall (disorder)"
+                },
+                {
+                  "code": "57054005",
+                  "display": "Acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "15713161000119100",
+                  "display": "Acute ST segment elevation myocardial infarction of septum (disorder)"
+                },
+                {
+                  "code": "194809007",
+                  "display": "Acute atrial infarction (disorder)"
+                },
+                {
+                  "code": "3098007",
+                  "display": "Rupture of interventricular septum (disorder)"
+                },
+                {
+                  "code": "371817007",
+                  "display": "Acute ventricular septal rupture (disorder)"
+                },
+                {
+                  "code": "56276002",
+                  "display": "Left main coronary artery thrombosis (disorder)"
+                },
+                {
+                  "code": "79009004",
+                  "display": "Acute myocardial infarction of septum (disorder)"
+                },
+                {
+                  "code": "10273003",
+                  "display": "Acute infarction of papillary muscle (disorder)"
+                },
+                {
+                  "code": "1077002",
+                  "display": "Septal infarction by electrocardiogram (finding)"
+                },
+                {
+                  "code": "54329005",
+                  "display": "Acute myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "233838001",
+                  "display": "Acute posterior myocardial infarction (disorder)"
+                },
+                {
+                  "code": "70422006",
+                  "display": "Acute subendocardial infarction (disorder)"
+                },
+                {
+                  "code": "703360004",
+                  "display": "Subsequent non-ST segment elevation myocardial infarction (disorder)"
+                },
+                {
+                  "code": "54329005",
+                  "display": "Acute myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "62695002",
+                  "display": "Acute anteroseptal myocardial infarction (disorder)"
+                },
+                {
+                  "code": "233826005",
+                  "display": "Acute non-Q wave infarction - anteroseptal (disorder)"
+                },
+                {
+                  "code": "311792005",
+                  "display": "Postoperative transmural myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "52035003",
+                  "display": "Acute anteroapical myocardial infarction (disorder)"
+                },
+                {
+                  "code": "285981000119103",
+                  "display": "Acute ST segment elevation myocardial infarction involving left anterior descending coronary artery (disorder)"
+                },
+                {
+                  "code": "233825009",
+                  "display": "Acute Q wave infarction - anteroseptal (disorder)"
+                },
+                {
+                  "code": "164868007",
+                  "display": "Anteroseptal infarction on electrocardiogram (finding)"
+                },
+                {
+                  "code": "15712961000119108",
+                  "display": "Acute ST segment elevation myocardial infarction of anteroseptal wall (disorder)"
+                },
+                {
+                  "code": "703252002",
+                  "display": "Acute myocardial infarction of anterior wall involving right ventricle (disorder)"
+                },
+                {
+                  "code": "703165004",
+                  "display": "Acute ST segment elevation myocardial infarction of anterior wall involving right ventricle (disorder)"
+                },
+                {
+                  "code": "703164000",
+                  "display": "Acute ST segment elevation myocardial infarction of anterior wall (disorder)"
+                },
+                {
+                  "code": "233838001",
+                  "display": "Acute posterior myocardial infarction (disorder)"
+                },
+                {
+                  "code": "73795002",
+                  "display": "Acute myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "703209002",
+                  "display": "Subsequent ST segment elevation myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "58612006",
+                  "display": "Acute myocardial infarction of lateral wall (disorder)"
+                },
+                {
+                  "code": "15712841000119100",
+                  "display": "Acute ST segment elevation myocardial infarction of posterolateral wall (disorder)"
+                },
+                {
+                  "code": "233834004",
+                  "display": "Acute non-Q wave infarction - lateral (disorder)"
+                },
+                {
+                  "code": "282006",
+                  "display": "Acute myocardial infarction of basal-lateral wall (disorder)"
+                },
+                {
+                  "code": "59063002",
+                  "display": "Acute myocardial infarction of apical-lateral wall (disorder)"
+                },
+                {
+                  "code": "64627002",
+                  "display": "Acute myocardial infarction of high lateral wall (disorder)"
+                },
+                {
+                  "code": "15990001",
+                  "display": "Acute myocardial infarction of posterolateral wall (disorder)"
+                },
+                {
+                  "code": "164871004",
+                  "display": "Lateral infarction on electrocardiogram (finding)"
+                },
+                {
+                  "code": "233833005",
+                  "display": "Acute Q wave infarction - lateral (disorder)"
+                },
+                {
+                  "code": "15712921000119103",
+                  "display": "Acute ST segment elevation myocardial infarction of lateral wall (disorder)"
+                },
+                {
+                  "code": "57054005",
+                  "display": "Acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "76593002",
+                  "display": "Acute myocardial infarction of inferoposterior wall (disorder)"
+                },
+                {
+                  "code": "73795002",
+                  "display": "Acute myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "233830008",
+                  "display": "Acute non-Q wave infarction - inferior (disorder)"
+                },
+                {
+                  "code": "311793000",
+                  "display": "Postoperative transmural myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "233829003",
+                  "display": "Acute Q wave infarction - inferior (disorder)"
+                },
+                {
+                  "code": "703213009",
+                  "display": "Acute ST segment elevation myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "703251009",
+                  "display": "Acute myocardial infarction of inferior wall involving right ventricle (disorder)"
+                },
+                {
+                  "code": "58612006",
+                  "display": "Acute myocardial infarction of lateral wall (disorder)"
+                },
+                {
+                  "code": "58612006",
+                  "display": "Acute myocardial infarction of lateral wall (disorder)"
+                },
+                {
+                  "code": "57054005",
+                  "display": "Acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "73795002",
+                  "display": "Acute myocardial infarction of inferior wall (disorder)"
+                },
+                {
+                  "code": "703253007",
+                  "display": "Acute ST segment elevation myocardial infarction of inferior wall involving right ventricle (disorder)"
+                },
+                {
+                  "code": "70422006",
+                  "display": "Acute subendocardial infarction (disorder)"
+                },
+                {
+                  "code": "57054005",
+                  "display": "Acute myocardial infarction (disorder)"
+                },
+                {
+                  "code": "233838001",
+                  "display": "Acute posterior myocardial infarction (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.troponin-labs",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.troponin-labs",
+        "name": "Troponin Labs",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                {
+                  "code": "10839-9",
+                  "display": "Troponin I.cardiac [Mass/volume] in Serum or Plasma"
+                },
+                {
+                  "code": "42757-5",
+                  "display": "Troponin I.cardiac [Mass/volume] in Blood"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.ecg-proc",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.ecg-proc",
+        "name": "Echocardiogram",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "0206T",
+                  "display": "Computerized database analysis of multiple cycles of digitized cardiac electrical data from two or more ECG leads, including transmission to a remote center, application of multiple nonlinear mathematical transformations, with coronary artery obstruction "
+                },
+                {
+                  "code": "93660",
+                  "display": "Evaluation of cardiovascular function with tilt table evaluation, with continuous ECG monitoring and intermittent blood pressure monitoring, with or without pharmacological intervention"
+                },
+                {
+                  "code": "93229",
+                  "display": "External mobile cardiovascular telemetry with electrocardiographic recording, concurrent computerized real time data analysis and greater than 24 hours of accessible ECG data storage (retrievable with query) with ECG triggered and patient selected events "
+                },
+                {
+                  "code": "93228",
+                  "display": "External mobile cardiovascular telemetry with electrocardiographic recording, concurrent computerized real time data analysis and greater than 24 hours of accessible ECG data storage (retrievable with query) with ECG triggered and patient selected events "
+                },
+                {
+                  "code": "93745",
+                  "display": "Initial set-up and programming by a physician or other qualified health care professional of wearable cardioverter-defibrillator includes initial programming of system, establishing baseline electronic ECG, transmission of data to data repository, patient"
+                },
+                {
+                  "code": "93798",
+                  "display": "Physician or other qualified health care professional services for outpatient cardiac rehabilitation; with continuous ECG monitoring (per session)"
+                },
+                {
+                  "code": "93042",
+                  "display": "Rhythm ECG, 1-3 leads; interpretation and report only"
+                },
+                {
+                  "code": "93041",
+                  "display": "Rhythm ECG, 1-3 leads; tracing only without interpretation and report"
+                },
+                {
+                  "code": "93040",
+                  "display": "Rhythm ECG, 1-3 leads; with interpretation and report"
+                },
+                {
+                  "code": "95807",
+                  "display": "Sleep study, simultaneous recording of ventilation, respiratory effort, ECG or heart rate, and oxygen saturation, attended by a technologist"
+                },
+                {
+                  "code": "0180T",
+                  "display": "Electrocardiogram, 64 leads or greater, with graphic presentation and analysis; interpretation and report only"
+                },
+                {
+                  "code": "0179T",
+                  "display": "Electrocardiogram, 64 leads or greater, with graphic presentation and analysis; tracing and graphics only, without interpretation and report"
+                },
+                {
+                  "code": "0178T",
+                  "display": "Electrocardiogram, 64 leads or greater, with graphic presentation and analysis; with interpretation and report"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.coronary-angiogram-proc",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.coronary-angiogram-proc",
+        "name": "Coronary Angiogram",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "01920",
+                  "display": "Anesthesia for cardiac catheterization including coronary angiography and ventriculography (not to include Swan-Ganz catheter)"
+                },
+                {
+                  "code": "93454",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation"
+                },
+                {
+                  "code": "93455",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with catheter placement(s) in bypass graft(s) (internal mammary, free arterial, ven"
+                },
+                {
+                  "code": "93457",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with catheter placement(s) in bypass graft(s) (internal mammary, free arterial, ven"
+                },
+                {
+                  "code": "93459",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with left heart catheterization including intraprocedural injection(s) for left ven"
+                },
+                {
+                  "code": "93458",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with left heart catheterization including intraprocedural injection(s) for left ven"
+                },
+                {
+                  "code": "93461",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with right and left heart catheterization including intraprocedural injection(s) fo"
+                },
+                {
+                  "code": "93460",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with right and left heart catheterization including intraprocedural injection(s) fo"
+                },
+                {
+                  "code": "93456",
+                  "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with right heart catheterization"
+                },
+                {
+                  "code": "93563",
+                  "display": "Injection procedure during cardiac catheterization including imaging supervision, interpretation, and report; for selective coronary angiography during congenital heart catheterization (List separately in addition to code for primary procedure)"
+                },
+                {
+                  "code": "93572",
+                  "display": "Intravascular Doppler velocity and/or pressure derived coronary flow reserve measurement (coronary vessel or graft) during coronary angiography including pharmacologically induced stress; each additional vessel (List separately in addition to code for pri"
+                },
+                {
+                  "code": "93571",
+                  "display": "Intravascular Doppler velocity and/or pressure derived coronary flow reserve measurement (coronary vessel or graft) during coronary angiography including pharmacologically induced stress; initial vessel (List separately in addition to code for primary pro"
+                },
+                {
+                  "code": "92975",
+                  "display": "Thrombolysis, coronary; by intracoronary infusion, including selective coronary angiography"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "33367005",
+                  "display": "Coronary angiography"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.stroke-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.stroke-dx",
+        "name": "Stroke Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "434.11",
+                  "display": "Cerebral embolism with cerebral infarction"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I63.012",
+                  "display": "Cerebral infarction due to thrombosis of left vertebral artery"
+                },
+                {
+                  "code": "I63.09",
+                  "display": "Cerebral infarction due to thrombosis of other precerebral artery"
+                },
+                {
+                  "code": "I63.039",
+                  "display": "Cerebral infarction due to thrombosis of unspecified carotid artery"
+                },
+                {
+                  "code": "I63.111",
+                  "display": "Cerebral infarction due to embolism of right vertebral artery"
+                },
+                {
+                  "code": "I63.22",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of basilar arteries"
+                },
+                {
+                  "code": "I63.239",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified carotid arteries"
+                },
+                {
+                  "code": "I63.329",
+                  "display": "Cerebral infarction due to thrombosis of unspecified anterior cerebral artery"
+                },
+                {
+                  "code": "I63.342",
+                  "display": "Cerebral infarction due to thrombosis of left cerebellar artery"
+                },
+                {
+                  "code": "I63.219",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified vertebral arteries"
+                },
+                {
+                  "code": "I63.29",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of other precerebral arteries"
+                },
+                {
+                  "code": "I63.319",
+                  "display": "Cerebral infarction due to thrombosis of unspecified middle cerebral artery"
+                },
+                {
+                  "code": "I63.02",
+                  "display": "Cerebral infarction due to thrombosis of basilar artery"
+                },
+                {
+                  "code": "I63.20",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified precerebral arteries"
+                },
+                {
+                  "code": "I63.112",
+                  "display": "Cerebral infarction due to embolism of left vertebral artery"
+                },
+                {
+                  "code": "I63.311",
+                  "display": "Cerebral infarction due to thrombosis of right middle cerebral artery"
+                },
+                {
+                  "code": "I63.321",
+                  "display": "Cerebral infarction due to thrombosis of right anterior cerebral artery"
+                },
+                {
+                  "code": "I63.019",
+                  "display": "Cerebral infarction due to thrombosis of unspecified vertebral artery"
+                },
+                {
+                  "code": "I63.032",
+                  "display": "Cerebral infarction due to thrombosis of left carotid artery"
+                },
+                {
+                  "code": "I63.119",
+                  "display": "Cerebral infarction due to embolism of unspecified vertebral artery"
+                },
+                {
+                  "code": "I63.232",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of left carotid arteries"
+                },
+                {
+                  "code": "I63.10",
+                  "display": "Cerebral infarction due to embolism of unspecified precerebral artery"
+                },
+                {
+                  "code": "I63.312",
+                  "display": "Cerebral infarction due to thrombosis of left middle cerebral artery"
+                },
+                {
+                  "code": "I63.339",
+                  "display": "Cerebral infarction due to thrombosis of unspecified posterior cerebral artery"
+                },
+                {
+                  "code": "I63.132",
+                  "display": "Cerebral infarction due to embolism of left carotid artery"
+                },
+                {
+                  "code": "I63.211",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of right vertebral arteries"
+                },
+                {
+                  "code": "I63.139",
+                  "display": "Cerebral infarction due to embolism of unspecified carotid artery"
+                },
+                {
+                  "code": "I63.212",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of left vertebral arteries"
+                },
+                {
+                  "code": "I63.322",
+                  "display": "Cerebral infarction due to thrombosis of left anterior cerebral artery"
+                },
+                {
+                  "code": "I63.331",
+                  "display": "Cerebral infarction due to thrombosis of right posterior cerebral artery"
+                },
+                {
+                  "code": "I63.39",
+                  "display": "Cerebral infarction due to thrombosis of other cerebral artery"
+                },
+                {
+                  "code": "I63.031",
+                  "display": "Cerebral infarction due to thrombosis of right carotid artery"
+                },
+                {
+                  "code": "I63.12",
+                  "display": "Cerebral infarction due to embolism of basilar artery"
+                },
+                {
+                  "code": "I63.341",
+                  "display": "Cerebral infarction due to thrombosis of right cerebellar artery"
+                },
+                {
+                  "code": "I63.30",
+                  "display": "Cerebral infarction due to thrombosis of unspecified cerebral artery"
+                },
+                {
+                  "code": "I63.131",
+                  "display": "Cerebral infarction due to embolism of right carotid artery"
+                },
+                {
+                  "code": "I63.332",
+                  "display": "Cerebral infarction due to thrombosis of left posterior cerebral artery"
+                },
+                {
+                  "code": "I63.00",
+                  "display": "Cerebral infarction due to thrombosis of unspecified precerebral artery"
+                },
+                {
+                  "code": "I63.011",
+                  "display": "Cerebral infarction due to thrombosis of right vertebral artery"
+                },
+                {
+                  "code": "I63.231",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of right carotid arteries"
+                },
+                {
+                  "code": "I63.19",
+                  "display": "Cerebral infarction due to embolism of other precerebral artery"
+                },
+                {
+                  "code": "I63.349",
+                  "display": "Cerebral infarction due to thrombosis of unspecified cerebellar artery"
+                },
+                {
+                  "code": "I63.0",
+                  "display": "Cerebral infarction due to thrombosis of precerebral arteries"
+                },
+                {
+                  "code": "I63.01",
+                  "display": "Cerebral infarction due to thrombosis of vertebral artery"
+                },
+                {
+                  "code": "I63.03",
+                  "display": "Cerebral infarction due to thrombosis of carotid artery"
+                },
+                {
+                  "code": "I63.1",
+                  "display": "Cerebral infarction due to embolism of precerebral arteries"
+                },
+                {
+                  "code": "I63.11",
+                  "display": "Cerebral infarction due to embolism of vertebral artery"
+                },
+                {
+                  "code": "I63.13",
+                  "display": "Cerebral infarction due to embolism of carotid artery"
+                },
+                {
+                  "code": "I63.2",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries"
+                },
+                {
+                  "code": "I63.21",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of vertebral arteries"
+                },
+                {
+                  "code": "I63.23",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of carotid arteries"
+                },
+                {
+                  "code": "I63.3",
+                  "display": "Cerebral infarction due to thrombosis of cerebral arteries"
+                },
+                {
+                  "code": "I63.31",
+                  "display": "Cerebral infarction due to thrombosis of middle cerebral artery"
+                },
+                {
+                  "code": "I63.32",
+                  "display": "Cerebral infarction due to thrombosis of anterior cerebral artery"
+                },
+                {
+                  "code": "I63.33",
+                  "display": "Cerebral infarction due to thrombosis of posterior cerebral artery"
+                },
+                {
+                  "code": "I63.34",
+                  "display": "Cerebral infarction due to thrombosis of cerebellar artery"
+                },
+                {
+                  "code": "I63.522",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of left anterior cerebral artery"
+                },
+                {
+                  "code": "I63.521",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of right anterior cerebral artery"
+                },
+                {
+                  "code": "I63.50",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebral artery"
+                },
+                {
+                  "code": "I63.529",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified anterior cerebral artery"
+                },
+                {
+                  "code": "I63.532",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of left posterior cerebral artery"
+                },
+                {
+                  "code": "I63.541",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of right cerebellar artery"
+                },
+                {
+                  "code": "I63.512",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of left middle cerebral artery"
+                },
+                {
+                  "code": "I63.531",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of right posterior cerebral artery"
+                },
+                {
+                  "code": "I63.539",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified posterior cerebral artery"
+                },
+                {
+                  "code": "I63.549",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebellar artery"
+                },
+                {
+                  "code": "I63.542",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of left cerebellar artery"
+                },
+                {
+                  "code": "I63.519",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified middle cerebral artery"
+                },
+                {
+                  "code": "I63.59",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of other cerebral artery"
+                },
+                {
+                  "code": "I63.511",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of right middle cerebral artery"
+                },
+                {
+                  "code": "I63.5",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries"
+                },
+                {
+                  "code": "I63.51",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery"
+                },
+                {
+                  "code": "I63.52",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of anterior cerebral artery"
+                },
+                {
+                  "code": "I63.53",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of posterior cerebral artery"
+                },
+                {
+                  "code": "I63.54",
+                  "display": "Cerebral infarction due to unspecified occlusion or stenosis of cerebellar artery"
+                },
+                {
+                  "code": "I63.6",
+                  "display": "Cerebral infarction due to cerebral venous thrombosis, nonpyogenic"
+                },
+                {
+                  "code": "I63.8",
+                  "display": "Other cerebral infarction"
+                },
+                {
+                  "code": "I63.9",
+                  "display": "Cerebral infarction, unspecified"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "195190007",
+                  "display": "Cerebral infarction due to embolism of cerebral arteries (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.stroke-meds",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.stroke-meds",
+        "name": "Stroke Medications",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "concept": [
+                {
+                  "code": "1191",
+                  "display": "Aspirin"
+                },
+                {
+                  "code": "32968",
+                  "display": "clopidogrel"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.carotid-duplex",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.carotid-duplex",
+        "name": "Carotid Duplex",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "93880",
+                  "display": "Duplex scan of extracranial arteries; complete bilateral study"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.neurology-encounter",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.neurology-encounter",
+        "name": "Neurology Encounter",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "702832002",
+                  "display": "Child and adolescent neurology clinic"
+                },
+                {
+                  "code": "16879004",
+                  "display": "Free-standing neurology clinic"
+                },
+                {
+                  "code": "38238005",
+                  "display": "Hospital-based outpatient neurology clinic"
+                },
+                {
+                  "code": "702887001",
+                  "display": "Neurology clinic"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.ct-scan-head-proc",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.ct-scan-head-proc",
+        "name": "CT Scan of Head",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "70450",
+                  "display": "Computed tomography, head or brain; without contrast material"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.mri-brain-proc",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.mri-brain-proc",
+        "name": "MRI Brain",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "70554",
+                  "display": "Magnetic resonance imaging, brain, functional MRI; including test selection and administration of repetitive body part movement and/or visual stimulation, not requiring physician or psychologist administration"
+                },
+                {
+                  "code": "70555",
+                  "display": "Magnetic resonance imaging, brain, functional MRI; requiring physician or psychologist administration of entire neurofunctional testing"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.deep-vein-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.deep-vein-thrombosis-dx",
+        "name": "Deep Vein Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "453.42",
+                  "display": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity"
+                },
+                {
+                  "code": "453.40",
+                  "display": "Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity"
+                },
+                {
+                  "code": "453.41",
+                  "display": "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity"
+                },
+                {
+                  "code": "453.4",
+                  "display": "Acute venous embolism and thrombosis of deep vessels of lower extremity"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I82.413",
+                  "display": "Acute embolism and thrombosis of femoral vein, bilateral"
+                },
+                {
+                  "code": "I82.439",
+                  "display": "Acute embolism and thrombosis of unspecified popliteal vein"
+                },
+                {
+                  "code": "I82.491",
+                  "display": "Acute embolism and thrombosis of other specified deep vein of right lower extremity"
+                },
+                {
+                  "code": "I82.402",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of left lower extremity"
+                },
+                {
+                  "code": "I82.422",
+                  "display": "Acute embolism and thrombosis of left iliac vein"
+                },
+                {
+                  "code": "I82.499",
+                  "display": "Acute embolism and thrombosis of other specified deep vein of unspecified lower extremity"
+                },
+                {
+                  "code": "I82.401",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of right lower extremity"
+                },
+                {
+                  "code": "I82.421",
+                  "display": "Acute embolism and thrombosis of right iliac vein"
+                },
+                {
+                  "code": "I82.432",
+                  "display": "Acute embolism and thrombosis of left popliteal vein"
+                },
+                {
+                  "code": "I82.442",
+                  "display": "Acute embolism and thrombosis of left tibial vein"
+                },
+                {
+                  "code": "I82.4Z1",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of right distal lower extremity"
+                },
+                {
+                  "code": "I82.431",
+                  "display": "Acute embolism and thrombosis of right popliteal vein"
+                },
+                {
+                  "code": "I82.449",
+                  "display": "Acute embolism and thrombosis of unspecified tibial vein"
+                },
+                {
+                  "code": "I82.409",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of unspecified lower extremity"
+                },
+                {
+                  "code": "I82.493",
+                  "display": "Acute embolism and thrombosis of other specified deep vein of lower extremity, bilateral"
+                },
+                {
+                  "code": "I82.4Y2",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of left proximal lower extremity"
+                },
+                {
+                  "code": "I82.4Z2",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of left distal lower extremity"
+                },
+                {
+                  "code": "I82.403",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of lower extremity, bilateral"
+                },
+                {
+                  "code": "I82.4Y3",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of proximal lower extremity, bilateral"
+                },
+                {
+                  "code": "I82.411",
+                  "display": "Acute embolism and thrombosis of right femoral vein"
+                },
+                {
+                  "code": "I82.443",
+                  "display": "Acute embolism and thrombosis of tibial vein, bilateral"
+                },
+                {
+                  "code": "I82.412",
+                  "display": "Acute embolism and thrombosis of left femoral vein"
+                },
+                {
+                  "code": "I82.4Z9",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of unspecified distal lower extremity"
+                },
+                {
+                  "code": "I82.429",
+                  "display": "Acute embolism and thrombosis of unspecified iliac vein"
+                },
+                {
+                  "code": "I82.433",
+                  "display": "Acute embolism and thrombosis of popliteal vein, bilateral"
+                },
+                {
+                  "code": "I82.441",
+                  "display": "Acute embolism and thrombosis of right tibial vein"
+                },
+                {
+                  "code": "I82.492",
+                  "display": "Acute embolism and thrombosis of other specified deep vein of left lower extremity"
+                },
+                {
+                  "code": "I82.4Y1",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of right proximal lower extremity"
+                },
+                {
+                  "code": "I82.419",
+                  "display": "Acute embolism and thrombosis of unspecified femoral vein"
+                },
+                {
+                  "code": "I82.423",
+                  "display": "Acute embolism and thrombosis of iliac vein, bilateral"
+                },
+                {
+                  "code": "I82.4Y9",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of unspecified proximal lower extremity"
+                },
+                {
+                  "code": "I82.4Z3",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of distal lower extremity, bilateral"
+                },
+                {
+                  "code": "I82.4",
+                  "display": "Acute embolism and thrombosis of deep veins of lower extremity"
+                },
+                {
+                  "code": "I82.41",
+                  "display": "Acute embolism and thrombosis of femoral vein"
+                },
+                {
+                  "code": "I82.42",
+                  "display": "Acute embolism and thrombosis of iliac vein"
+                },
+                {
+                  "code": "I82.43",
+                  "display": "Acute embolism and thrombosis of popliteal vein"
+                },
+                {
+                  "code": "I82.44",
+                  "display": "Acute embolism and thrombosis of tibial vein"
+                },
+                {
+                  "code": "I82.49",
+                  "display": "Acute embolism and thrombosis of other specified deep vein of lower extremity"
+                },
+                {
+                  "code": "I82.4Y",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of proximal lower extremity"
+                },
+                {
+                  "code": "I82.4Z",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of distal lower extremity"
+                },
+                {
+                  "code": "I82.40",
+                  "display": "Acute embolism and thrombosis of unspecified deep veins of lower extremity"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "443210003",
+                  "display": "Deep venous thrombosis of peroneal vein (disorder)"
+                },
+                {
+                  "code": "128053003",
+                  "display": "Deep venous thrombosis (disorder)"
+                },
+                {
+                  "code": "404223003",
+                  "display": "Deep venous thrombosis of lower extremity (disorder)"
+                },
+                {
+                  "code": "428781001",
+                  "display": "Deep venous thrombosis associated with coronary artery bypass graft (disorder)"
+                },
+                {
+                  "code": "234043001",
+                  "display": "Thrombosis of vein of lower leg (disorder)"
+                },
+                {
+                  "code": "134399007",
+                  "display": "Deep vein thrombosis of leg related to air travel (disorder)"
+                },
+                {
+                  "code": "651000119108",
+                  "display": "Acute deep vein thrombosis of lower limb (disorder)"
+                },
+                {
+                  "code": "444325005",
+                  "display": "Deep vein thrombosis of bilateral lower extremities (disorder)"
+                },
+                {
+                  "code": "710167004",
+                  "display": "Recurrent deep vein thrombosis (disorder)"
+                },
+                {
+                  "code": "132111000119107",
+                  "display": "Acute deep venous thrombosis of lower limb due to coronary artery bypass grafting (disorder)"
+                },
+                {
+                  "code": "136781000119101",
+                  "display": "Acute deep venous thrombosis of lower extremity as complication of procedure (disorder)"
+                },
+                {
+                  "code": "132281000119108",
+                  "display": "Acute deep venous thrombosis (disorder)"
+                },
+                {
+                  "code": "703277001",
+                  "display": "Deep venous thrombosis of femoropopliteal vein (disorder)"
+                },
+                {
+                  "code": "132301000119107",
+                  "display": "Acute deep venous thrombosis of iliofemoral vein (disorder)"
+                },
+                {
+                  "code": "132291000119106",
+                  "display": "Acute deep venous thrombosis of femoral vein (disorder)"
+                },
+                {
+                  "code": "132251000119101",
+                  "display": "Acute deep venous thrombosis of popliteal vein (disorder)"
+                },
+                {
+                  "code": "457597009",
+                  "display": "Occlusion of iliac vein (disorder)"
+                },
+                {
+                  "code": "427776007",
+                  "display": "Thrombosis of the popliteal vein (disorder)"
+                },
+                {
+                  "code": "427775006",
+                  "display": "Deep venous thrombosis of profunda femoris vein (disorder)"
+                },
+                {
+                  "code": "461418005",
+                  "display": "Acquired occlusion of iliac vein (disorder)"
+                },
+                {
+                  "code": "132271000119105",
+                  "display": "Acute deep venous thrombosis of thigh (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.d-dimer-fibrin-labs",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.d-dimer-fibrin-labs",
+        "name": "D-Dimer Fibrin Labs",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                {
+                  "code": "48065-7",
+                  "display": "Fibrin D-dimer FEU"
+                },
+                {
+                  "code": "48058-2",
+                  "display": "Fibrin D-dimer DDU [Mass/volume] in Platelet poor plasma by Immunoassay"
+                },
+                {
+                  "code": "48066-5",
+                  "display": "Fibrin D-dimer DDU"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.pulmonary-embolism-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.pulmonary-embolism-dx",
+        "name": "Pulmonary Embolism Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "415.1",
+                  "display": "Pulmonary embolism and infarction"
+                },
+                {
+                  "code": "415.12",
+                  "display": "Septic pulmonary embolism"
+                },
+                {
+                  "code": "415.19",
+                  "display": "Other pulmonary embolism and infarction"
+                },
+                {
+                  "code": "415.11",
+                  "display": "Iatrogenic pulmonary embolism and infarction"
+                },
+                {
+                  "code": "415.13",
+                  "display": "Saddle embolus of pulmonary artery"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I26.92",
+                  "display": "Saddle embolus of pulmonary artery without acute cor pulmonale"
+                },
+                {
+                  "code": "I26.99",
+                  "display": "Other pulmonary embolism without acute cor pulmonale"
+                },
+                {
+                  "code": "I26.90",
+                  "display": "Septic pulmonary embolism without acute cor pulmonale"
+                },
+                {
+                  "code": "I26.9",
+                  "display": "Pulmonary embolism without acute cor pulmonale"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "1001000119102",
+                  "display": "Pulmonary embolism with pulmonary infarction (disorder)"
+                },
+                {
+                  "code": "441557008",
+                  "display": "Septic pulmonary embolism (disorder)"
+                },
+                {
+                  "code": "59282003",
+                  "display": "Pulmonary embolism (disorder)"
+                },
+                {
+                  "code": "438773007",
+                  "display": "Recurrent pulmonary embolism (disorder)"
+                },
+                {
+                  "code": "194883006",
+                  "display": "Postoperative pulmonary embolus (disorder)"
+                },
+                {
+                  "code": "233935004",
+                  "display": "Pulmonary thromboembolism (disorder)"
+                },
+                {
+                  "code": "233936003",
+                  "display": "Acute massive pulmonary embolism (disorder)"
+                },
+                {
+                  "code": "233937007",
+                  "display": "Subacute massive pulmonary embolism (disorder)"
+                },
+                {
+                  "code": "233938002",
+                  "display": "Pulmonary fat embolism (disorder)"
+                },
+                {
+                  "code": "233940007",
+                  "display": "Pulmonary tumor embolism (disorder)"
+                },
+                {
+                  "code": "233947005",
+                  "display": "Thromboembolic pulmonary hypertension (disorder)"
+                },
+                {
+                  "code": "252986008",
+                  "display": "Tumor embolus (disorder)"
+                },
+                {
+                  "code": "57834008",
+                  "display": "Pulmonary artery thrombosis (disorder)"
+                },
+                {
+                  "code": "64662007",
+                  "display": "Pulmonary infarction (disorder)"
+                },
+                {
+                  "code": "69357003",
+                  "display": "Pulmonary thrombosis (disorder)"
+                },
+                {
+                  "code": "74315008",
+                  "display": "Pulmonary microemboli (disorder)"
+                },
+                {
+                  "code": "77892009",
+                  "display": "Pulmonary venous thrombosis (disorder)"
+                },
+                {
+                  "code": "83727005",
+                  "display": "Hemorrhagic pulmonary infarction (disorder)"
+                },
+                {
+                  "code": "1001000119102",
+                  "display": "Pulmonary embolism with pulmonary infarction (disorder)"
+                },
+                {
+                  "code": "11029002",
+                  "display": "Pulmonary apoplexy (disorder)"
+                },
+                {
+                  "code": "707414004",
+                  "display": "Acute pulmonary thromboembolism (disorder)"
+                },
+                {
+                  "code": "713078005",
+                  "display": "Pulmonary embolism on long-term anticoagulation therapy (disorder)"
+                },
+                {
+                  "code": "703636009",
+                  "display": "Pulmonary oil microembolism (disorder)"
+                },
+                {
+                  "code": "706870000",
+                  "display": "Acute pulmonary embolism (disorder)"
+                },
+                {
+                  "code": "441746000",
+                  "display": "Infarction of lung due to iatrogenic pulmonary embolism (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.ct-scan-chest",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.ct-scan-chest",
+        "name": "CT Scan of Chest",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "71250",
+                  "display": "Computed tomography, thorax; without contrast material"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.vq-scan",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.vq-scan",
+        "name": "Ventilation-Perfusion Scan",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "78582",
+                  "display": "Pulmonary ventilation (eg, aerosol or gas) and perfusion imaging"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.mesenteric-splanchnic-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.mesenteric-splanchnic-thrombosis-dx",
+        "name": "Mesenteric-Splanchnic Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "557.0",
+                  "display": "Acute vascular insufficiency of intestine"
+                },
+                {
+                  "code": "444.89",
+                  "display": "Embolism and thrombosis of other specified artery"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I81",
+                  "display": "Portal vein thrombosis"
+                },
+                {
+                  "code": "K55.0",
+                  "display": "Acute vascular disorders of intestine"
+                },
+                {
+                  "code": "I82.0",
+                  "display": "Budd-Chiari syndrome"
+                },
+                {
+                  "code": "I74.8",
+                  "display": "Embolism and thrombosis of other arteries"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "91489000",
+                  "display": "Acute vascular insufficiency of intestine (disorder)"
+                },
+                {
+                  "code": "65198009",
+                  "display": "Arterial thrombosis (disorder)"
+                },
+                {
+                  "code": "54687002",
+                  "display": "Arterial embolism (disorder)"
+                },
+                {
+                  "code": "297136002",
+                  "display": "Axillary artery embolus (disorder)"
+                },
+                {
+                  "code": "297135003",
+                  "display": "Subclavian artery embolus (disorder)"
+                },
+                {
+                  "code": "195343000",
+                  "display": "Embolism and thrombosis of hepatic artery (disorder)"
+                },
+                {
+                  "code": "195342005",
+                  "display": "Embolism and thrombosis of the celiac artery (disorder)"
+                },
+                {
+                  "code": "195340002",
+                  "display": "Embolism and thrombosis of the splenic artery (disorder)"
+                },
+                {
+                  "code": "195339004",
+                  "display": "Embolism and thrombosis of the subclavian artery (disorder)"
+                },
+                {
+                  "code": "195318006",
+                  "display": "Embolism and thrombosis of an arm or leg artery (disorder)"
+                },
+                {
+                  "code": "83940008",
+                  "display": "Hepatic artery thrombosis (disorder)"
+                },
+                {
+                  "code": "80235008",
+                  "display": "Hepatic artery embolism (disorder)"
+                },
+                {
+                  "code": "312593004",
+                  "display": "Trunk arterial embolus (disorder)"
+                },
+                {
+                  "code": "297154003",
+                  "display": "Subclavian artery thrombosis (disorder)"
+                },
+                {
+                  "code": "297148004",
+                  "display": "Celiac artery thrombosis (disorder)"
+                },
+                {
+                  "code": "297137006",
+                  "display": "Celiac artery embolus (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.ultrasonography-proc",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.ultrasonography-proc",
+        "name": "Ultrasonography",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "76999",
+                  "display": "Unlisted ultrasound procedure (eg, diagnostic, interventional)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.ct-scan-abdomen",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.ct-scan-abdomen",
+        "name": "CT Scan of Abdomen",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "concept": [
+                {
+                  "code": "1010526",
+                  "display": "Computed tomography, abdomen"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.mri-proc",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.mri-proc",
+        "name": "MRI",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "113091000",
+                  "display": "Magnetic resonance imaging"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.superficial-vein-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.superficial-vein-thrombosis-dx",
+        "name": "Superficial Vein Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "453.6",
+                  "display": "Venous embolism and thrombosis of superficial vessels of lower extremity"
+                },
+                {
+                  "code": "451.89",
+                  "display": "Phlebitis and thrombophlebitis of other sites"
+                },
+                {
+                  "code": "453.82",
+                  "display": "Acute venous embolism and thrombosis of deep veins of upper extremity"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I82.81",
+                  "display": "Embolism and thrombosis of superficial veins of lower extremities"
+                },
+                {
+                  "code": "I80.02",
+                  "display": "Phlebitis and thrombophlebitis of superficial vessels of left lower extremity"
+                },
+                {
+                  "code": "I80.00",
+                  "display": "Phlebitis and thrombophlebitis of superficial vessels of unspecified lower extremity"
+                },
+                {
+                  "code": "I80.01",
+                  "display": "Phlebitis and thrombophlebitis of superficial vessels of right lower extremity"
+                },
+                {
+                  "code": "I80.03",
+                  "display": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities, bilateral"
+                },
+                {
+                  "code": "I80.0",
+                  "display": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities"
+                },
+                {
+                  "code": "I82.61",
+                  "display": "Acute embolism and thrombosis of superficial veins of upper extremity"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "429434005",
+                  "display": "Thrombosis of superficial vein of lower limb (disorder)"
+                },
+                {
+                  "code": "195394007",
+                  "display": "Phlebitis and thrombophlebitis (disorder)"
+                },
+                {
+                  "code": "75138007",
+                  "display": "Endophlebitis of superior sagittal sinus (disorder)"
+                },
+                {
+                  "code": "73390009",
+                  "display": "Endophlebitis of cavernous venous sinus (disorder)"
+                },
+                {
+                  "code": "8166000",
+                  "display": "Thrombophlebitis of basilar sinus (disorder)"
+                },
+                {
+                  "code": "95445009",
+                  "display": "Thrombophlebitis of vena cava (disorder)"
+                },
+                {
+                  "code": "95447001",
+                  "display": "Thrombophlebitis of mesenteric vein (disorder)"
+                },
+                {
+                  "code": "95449003",
+                  "display": "Thrombophlebitis of pelvic vein (disorder)"
+                },
+                {
+                  "code": "15705007",
+                  "display": "Phlebitis of basilar sinus (disorder)"
+                },
+                {
+                  "code": "16061002",
+                  "display": "Endophlebitis of lateral venous sinus (disorder)"
+                },
+                {
+                  "code": "26954004",
+                  "display": "Thrombophlebitis of superior sagittal sinus (disorder)"
+                },
+                {
+                  "code": "361278002",
+                  "display": "Mondor's phlebitis of the penis (disorder)"
+                },
+                {
+                  "code": "3681008",
+                  "display": "Thrombophlebitis of torcular Herophili (disorder)"
+                },
+                {
+                  "code": "4262001",
+                  "display": "Phlebitis of superior sagittal sinus (disorder)"
+                },
+                {
+                  "code": "438483005",
+                  "display": "Thrombophlebitis of subclavian vein (disorder)"
+                },
+                {
+                  "code": "438646004",
+                  "display": "Thrombophlebitis of axillary vein (disorder)"
+                },
+                {
+                  "code": "55734000",
+                  "display": "Endophlebitis of basilar sinus (disorder)"
+                },
+                {
+                  "code": "61687004",
+                  "display": "Endophlebitis of inferior sagittal sinus (disorder)"
+                },
+                {
+                  "code": "69954004",
+                  "display": "Thrombophlebitis of breast (disorder)"
+                },
+                {
+                  "code": "71719003",
+                  "display": "Thrombophlebitis of retinal vein (disorder)"
+                },
+                {
+                  "code": "80901002",
+                  "display": "Endophlebitis of torcular Herophili (disorder)"
+                },
+                {
+                  "code": "128054009",
+                  "display": "Deep venous thrombosis of upper extremity (disorder)"
+                },
+                {
+                  "code": "132321000119103",
+                  "display": "Acute deep venous thrombosis of upper extremity (disorder)"
+                },
+                {
+                  "code": "136771000119104",
+                  "display": "Acute deep venous thrombosis of upper extremity as complication of procedure (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.other-arterial-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.other-arterial-thrombosis-dx",
+        "name": "Other Arterial Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "444.1",
+                  "display": "Embolism and thrombosis of thoracic aorta"
+                },
+                {
+                  "code": "444.22",
+                  "display": "Arterial embolism and thrombosis of lower extremity"
+                },
+                {
+                  "code": "453.3",
+                  "display": "Other venous embolism and thrombosis of renal vein"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I74.10",
+                  "display": "Embolism and thrombosis of unspecified parts of aorta"
+                },
+                {
+                  "code": "I74.11",
+                  "display": "Embolism and thrombosis of thoracic aorta"
+                },
+                {
+                  "code": "I74.19",
+                  "display": "Embolism and thrombosis of other parts of aorta"
+                },
+                {
+                  "code": "I74.01",
+                  "display": "Saddle embolus of abdominal aorta"
+                },
+                {
+                  "code": "I74.09",
+                  "display": "Other arterial embolism and thrombosis of abdominal aorta"
+                },
+                {
+                  "code": "I74",
+                  "display": "Arterial embolism and thrombosis"
+                },
+                {
+                  "code": "I74.1",
+                  "display": "Embolism and thrombosis of other and unspecified parts of aorta"
+                },
+                {
+                  "code": "I74.0",
+                  "display": "Embolism and thrombosis of abdominal aorta"
+                },
+                {
+                  "code": "I74.2",
+                  "display": "Embolism and thrombosis of arteries of the upper extremities"
+                },
+                {
+                  "code": "I74.3",
+                  "display": "Embolism and thrombosis of arteries of the lower extremities"
+                },
+                {
+                  "code": "I74.4",
+                  "display": "Embolism and thrombosis of arteries of extremities, unspecified"
+                },
+                {
+                  "code": "I74.5",
+                  "display": "Embolism and thrombosis of iliac artery"
+                },
+                {
+                  "code": "I74.8",
+                  "display": "Embolism and thrombosis of other arteries"
+                },
+                {
+                  "code": "I74.9",
+                  "display": "Embolism and thrombosis of unspecified artery"
+                },
+                {
+                  "code": "I65.1",
+                  "display": "Occlusion and stenosis of basilar artery"
+                },
+                {
+                  "code": "I82.3",
+                  "display": "Embolism and thrombosis of renal vein"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "195317001",
+                  "display": "Embolism and thrombosis of the thoracic aorta (disorder)"
+                },
+                {
+                  "code": "405557003",
+                  "display": "Occlusion of lower limb artery (disorder)"
+                },
+                {
+                  "code": "90958004",
+                  "display": "Thrombosis of arteries of lower extremity (disorder)"
+                },
+                {
+                  "code": "195325004",
+                  "display": "Embolism and thrombosis of the anterior tibial artery (disorder)"
+                },
+                {
+                  "code": "87239004",
+                  "display": "Popliteal artery thrombosis (disorder)"
+                },
+                {
+                  "code": "52156004",
+                  "display": "Femoral artery thrombosis (disorder)"
+                },
+                {
+                  "code": "425527003",
+                  "display": "Atheromatous embolus of lower limb (disorder)"
+                },
+                {
+                  "code": "33591000",
+                  "display": "Thrombosis of arteries of the extremities (disorder)"
+                },
+                {
+                  "code": "314189001",
+                  "display": "Popliteal artery occlusion (disorder)"
+                },
+                {
+                  "code": "314188009",
+                  "display": "Femoral artery occlusion (disorder)"
+                },
+                {
+                  "code": "312828005",
+                  "display": "Common femoral artery occlusion (disorder)"
+                },
+                {
+                  "code": "312827000",
+                  "display": "Superficial femoral artery occlusion (disorder)"
+                },
+                {
+                  "code": "312380005",
+                  "display": "Post-radiological embolism of lower limb artery (disorder)"
+                },
+                {
+                  "code": "312378004",
+                  "display": "Lower limb arterial embolus (disorder)"
+                },
+                {
+                  "code": "302300004",
+                  "display": "Femoral popliteal occlusion (disorder)"
+                },
+                {
+                  "code": "297162006",
+                  "display": "Crural artery thrombosis (disorder)"
+                },
+                {
+                  "code": "297155002",
+                  "display": "Superficial femoral artery thrombosis (disorder)"
+                },
+                {
+                  "code": "297153009",
+                  "display": "Profunda femoris artery thrombosis (disorder)"
+                },
+                {
+                  "code": "297149007",
+                  "display": "Common femoral artery thrombosis (disorder)"
+                },
+                {
+                  "code": "297141005",
+                  "display": "Popliteal artery embolus (disorder)"
+                },
+                {
+                  "code": "286959000",
+                  "display": "Peripheral arterial embolism (disorder)"
+                },
+                {
+                  "code": "233973000",
+                  "display": "Femoral artery embolus (disorder)"
+                },
+                {
+                  "code": "195327007",
+                  "display": "Embolism and thrombosis of the posterior tibial artery (disorder)"
+                },
+                {
+                  "code": "195323006",
+                  "display": "Embolism and thrombosis of the femoral artery (disorder)"
+                },
+                {
+                  "code": "195324000",
+                  "display": "Embolism and thrombosis of the popliteal artery (disorder)"
+                },
+                {
+                  "code": "195326003",
+                  "display": "Embolism and thrombosis of the dorsalis pedis artery (disorder)"
+                },
+                {
+                  "code": "195318006",
+                  "display": "Embolism and thrombosis of an arm or leg artery (disorder)"
+                },
+                {
+                  "code": "39291006",
+                  "display": "Embolism of renal vein (disorder)"
+                },
+                {
+                  "code": "195438008",
+                  "display": "Embolism and thrombosis of the renal vein (disorder)"
+                },
+                {
+                  "code": "15842009",
+                  "display": "Thrombosis of renal vein (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.placenta-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.placenta-thrombosis-dx",
+        "name": "Placenta Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "663.63",
+                  "display": "Vascular lesions of cord complicating labor and delivery, antepartum condition or complication"
+                },
+                {
+                  "code": "663.61",
+                  "display": "Vascular lesions of cord complicating labor and delivery, delivered, with or without mention of antepartum condition"
+                },
+                {
+                  "code": "663.60",
+                  "display": "Vascular lesions of cord complicating labor and delivery, unspecified as to episode of care or not applicable"
+                },
+                {
+                  "code": "663.6",
+                  "display": "Vascular lesions of cord complicating labor and delivery"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "O43.813",
+                  "display": "Placental infarction, third trimester"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "7870007",
+                  "display": "Vascular lesion of cord (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.central-nervous-system-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.central-nervous-system-thrombosis-dx",
+        "name": "Central Nervous System (CNS) Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "437.6",
+                  "display": "Nonpyogenic thrombosis of intracranial venous sinus"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I67.6",
+                  "display": "Nonpyogenic thrombosis of intracranial venous system"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "42970005",
+                  "display": "Nonpyogenic thrombosis of intracranial venous sinus (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "1516.endocarial-thrombosis-dx",
+        "url": "https://workbench.phema.science/fhir/ValueSet/1516.endocarial-thrombosis-dx",
+        "name": "Endocardial Thrombosis Diagnoses",
+        "status": "active",
+        "publisher": "Project PhEMA",
+        "compose": {
+          "include": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "concept": [
+                {
+                  "code": "996.71",
+                  "display": "Other complications due to heart valve prosthesis"
+                },
+                {
+                  "code": "444.9",
+                  "display": "Embolism and thrombosis of unspecified artery"
+                }
+              ]
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "concept": [
+                {
+                  "code": "I34.8",
+                  "display": "Other nonrheumatic mitral valve disorders"
+                },
+                {
+                  "code": "I51.3",
+                  "display": "Intracardiac thrombosis, not elsewhere classified"
+                }
+              ]
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                {
+                  "code": "703293005",
+                  "display": "Prosthetic pulmonary valve regurgitation (disorder)"
+                },
+                {
+                  "code": "703168002",
+                  "display": "Prosthetic mitral valve stenosis and regurgitation (disorder)"
+                },
+                {
+                  "code": "703297006",
+                  "display": "Prosthetic aortic valve stenosis and regurgitation (disorder)"
+                },
+                {
+                  "code": "703291007",
+                  "display": "Prosthetic pulmonary valve stenosis (disorder)"
+                },
+                {
+                  "code": "703167007",
+                  "display": "Prosthetic mitral valve stenosis (disorder)"
+                },
+                {
+                  "code": "703292000",
+                  "display": "Prosthetic tricuspid valve regurgitation (disorder)"
+                },
+                {
+                  "code": "703177009",
+                  "display": "Prosthetic mitral valve calcific stenosis (disorder)"
+                },
+                {
+                  "code": "703296002",
+                  "display": "Acute prosthetic tricuspid valve regurgitation (disorder)"
+                },
+                {
+                  "code": "703170006",
+                  "display": "Prosthetic aortic valve stenosis (disorder)"
+                },
+                {
+                  "code": "703175001",
+                  "display": "Acute prosthetic mitral valve regurgitation (disorder)"
+                },
+                {
+                  "code": "703169005",
+                  "display": "Acute prosthetic aortic valve regurgitation (disorder)"
+                },
+                {
+                  "code": "703200003",
+                  "display": "Prosthetic tricuspid valve stenosis (disorder)"
+                },
+                {
+                  "code": "457702006",
+                  "display": "Disorder of aortic valve prosthesis (disorder)"
+                },
+                {
+                  "code": "461108007",
+                  "display": "Disorder of left atrioventricular (not morphologically mitral) valve prosthesis (disorder)"
+                },
+                {
+                  "code": "472829004",
+                  "display": "Disorder of atrioventricular (not morphologically mitral or tricuspid) valve prosthesis (disorder)"
+                },
+                {
+                  "code": "472830009",
+                  "display": "Disorder of right atrioventricular (not morphologically tricuspid) valve prosthesis (disorder)"
+                },
+                {
+                  "code": "472831008",
+                  "display": "Disorder of tricuspid valve prosthesis (disorder)"
+                },
+                {
+                  "code": "234188002",
+                  "display": "Prosthetic cardiac valve calcification (disorder)"
+                },
+                {
+                  "code": "472833006",
+                  "display": "Disorder of pulmonary valve prosthesis (disorder)"
+                },
+                {
+                  "code": "472834000",
+                  "display": "Disorder of truncal valve prosthesis (disorder)"
+                },
+                {
+                  "code": "234182001",
+                  "display": "Prosthetic cardiac valve component embolism (disorder)"
+                },
+                {
+                  "code": "234185004",
+                  "display": "Prosthetic cardiac valve thrombosis (disorder)"
+                },
+                {
+                  "code": "234187007",
+                  "display": "Prosthetic cardiac valve vegetation (disorder)"
+                },
+                {
+                  "code": "472832001",
+                  "display": "Disorder of mitral valve prosthesis (disorder)"
+                },
+                {
+                  "code": "65198009",
+                  "display": "Arterial thrombosis (disorder)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "ValueSet"
+      }
+    }
+  ]
+}

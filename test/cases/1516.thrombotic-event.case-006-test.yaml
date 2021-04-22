@@ -1,0 +1,52 @@
+---
+name: 006 Thrombotic Event NOT Case - stroke missing ecg
+
+data:
+  - resourceType: Patient
+    name: Joe Smith
+    gender: male
+    birthDate: 1958-07-16
+
+  # stroke dx
+  - resourceType: Condition
+    code: ICD10CM#I63.012 Cerebral infarction due to thrombosis of left vertebral artery
+    onsetDateTime: "1998-12-12T16:00:00.000Z"
+
+  # stroke meds
+  - resourceType: MedicationRequest
+    code: RXNORM#1191 Aspirin
+    authoredOn: "1998-12-12T17:00:00.000Z"
+    status: completed
+
+  # carotid duplex
+  - resourceType: Procedure
+    code: CPT#93880 Duplex scan of extracranial arteries; complete bilateral study
+    performedDateTime: "1998-12-15T16:00:00.000Z"
+
+  # ecg
+  # - resourceType: Procedure
+  #   code: CPT#93042 Rhythm ECG, 1-3 leads; interpretation and report only
+  #   performedDateTime: "1998-12-15T16:00:00.000Z"
+
+  # neurology consult
+  - resourceType: Encounter
+    period: "1998-12-15T16:00:00.000Z"
+    serviceType: SNOMED#16879004 Free-standing neurology clinic
+
+  # ct head
+  - resourceType: Procedure
+    code: CPT#70450 Computed tomography, head or brain; without contrast material
+    performedDateTime: "1998-12-16T16:00:00.000Z"
+
+results:
+  "Event Type 1: Myocardial Infarction": false
+  "Event Type 2: Stroke": false
+  "Event Type 3: DVT": false
+  "Event Type 4: PE": false
+  "Event Type 5: Mesenteric-Splanchnic Thrombosis": false
+  "Event Type 6: Superficial Vein Thrombosis": false
+  "Event Type 7: Other Arterial Thrombosis": false
+  "Event Type 8: Placenta Thrombosis": false
+  "Event Type 9: Central Nervous System (CNS) Thrombosis": false
+  "Event Type 10: Endocardial Thrombosis": false
+  Case: false

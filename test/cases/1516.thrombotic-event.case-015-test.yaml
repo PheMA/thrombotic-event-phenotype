@@ -1,0 +1,32 @@
+---
+name: 015 Thrombotic Event Case - OAT, anticoagulant
+
+data:
+  - resourceType: Patient
+    name: Joe Smith
+    gender: male
+    birthDate: 1958-07-16
+
+  # OAT dx
+  - resourceType: Condition
+    code: ICD9#444.1 Embolism and thrombosis of thoracic aorta
+    onsetDateTime: "1998-12-12T16:00:00.000Z"
+
+  # anticoagulant
+  - resourceType: MedicationRequest
+    code: RXNORM#1008696 dalteparin / dihydroergotamine
+    authoredOn: "1998-12-12T17:00:00.000Z"
+    status: completed
+
+results:
+  "Event Type 1: Myocardial Infarction": false
+  "Event Type 2: Stroke": false
+  "Event Type 3: DVT": false
+  "Event Type 4: PE": false
+  "Event Type 5: Mesenteric-Splanchnic Thrombosis": false
+  "Event Type 6: Superficial Vein Thrombosis": false
+  "Event Type 7: Other Arterial Thrombosis": true
+  "Event Type 8: Placenta Thrombosis": false
+  "Event Type 9: Central Nervous System (CNS) Thrombosis": false
+  "Event Type 10: Endocardial Thrombosis": false
+  Case: true

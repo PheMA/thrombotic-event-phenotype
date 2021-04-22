@@ -1,0 +1,26 @@
+---
+name: 014 Thrombotic Event NOT Case - SVT, not anticoagulant
+
+data:
+  - resourceType: Patient
+    name: Joe Smith
+    gender: male
+    birthDate: 1958-07-16
+
+  # SVT dx
+  - resourceType: Condition
+    code: ICD9#453.6 Venous embolism and thrombosis of superficial vessels of lower extremity
+    onsetDateTime: "1998-12-12T16:00:00.000Z"
+
+results:
+  "Event Type 1: Myocardial Infarction": false
+  "Event Type 2: Stroke": false
+  "Event Type 3: DVT": false
+  "Event Type 4: PE": false
+  "Event Type 5: Mesenteric-Splanchnic Thrombosis": false
+  "Event Type 6: Superficial Vein Thrombosis": false
+  "Event Type 7: Other Arterial Thrombosis": false
+  "Event Type 8: Placenta Thrombosis": false
+  "Event Type 9: Central Nervous System (CNS) Thrombosis": false
+  "Event Type 10: Endocardial Thrombosis": false
+  Case: false
