@@ -1,0 +1,63 @@
+{
+  "resourceType": "Bundle",
+  "id": "014 Thrombotic Event NOT Case - SVT, not anticoagulant",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "81ec071c-2fed-4fb2-a1c8-5416c4b5a9bc",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bb30ee6e-4882-4857-87a3-b06df97bd117",
+        "subject": {
+          "reference": "Patient/81ec071c-2fed-4fb2-a1c8-5416c4b5a9bc"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "453.6",
+              "display": "Venous embolism and thrombosis of superficial vessels of lower extremity"
+            }
+          ],
+          "text": "Venous embolism and thrombosis of superficial vessels of lower extremity"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "Bundle",
+  "id": "018 Thrombotic Event NOT Case - PT, no anticoagulant",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "eb2c05f5-bcb8-4ea0-8cde-a8a6e67f5afb",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0b3d1d3b-e5d0-4d22-9541-2d48fd9a3f7f",
+        "subject": {
+          "reference": "Patient/eb2c05f5-bcb8-4ea0-8cde-a8a6e67f5afb"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "663.63",
+              "display": "Vascular lesions of cord complicating labor and delivery, antepartum condition or complication"
+            }
+          ],
+          "text": "Vascular lesions of cord complicating labor and delivery, antepartum condition or complication"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    }
+  ]
+}

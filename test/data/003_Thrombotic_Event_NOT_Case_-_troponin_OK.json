@@ -1,0 +1,111 @@
+{
+  "resourceType": "Bundle",
+  "id": "003 Thrombotic Event NOT Case - troponin OK",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "38126186-f29f-4586-83db-d5cc866549da",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-1",
+        "subject": {
+          "reference": "Patient/38126186-f29f-4586-83db-d5cc866549da"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "410.2",
+              "display": "Acute myocardial infarction, of inferolateral wall"
+            }
+          ],
+          "text": "Acute myocardial infarction, of inferolateral wall"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cc53b339-299a-4c7c-b171-bf2071376018",
+        "subject": {
+          "reference": "Patient/38126186-f29f-4586-83db-d5cc866549da"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10839-9",
+              "display": "Troponin I.cardiac [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Troponin I.cardiac [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "ng/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ng/mL"
+        },
+        "effectiveDateTime": "1998-12-12T18:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3c6bf104-74e0-4318-b00b-feb568731e55",
+        "subject": {
+          "reference": "Patient/38126186-f29f-4586-83db-d5cc866549da"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "93454",
+              "display": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation"
+            }
+          ],
+          "text": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation"
+        },
+        "performedDateTime": "1998-12-10T16:00:00.000Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "resourceType": "Bundle",
+  "id": "020 Thrombotic Event NOT Case - no dx",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c4f7fd38-2ea3-487b-bcd1-990397cdde46",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "38dbf0dc-4efe-48e1-ae01-75ad33077ab9",
+        "subject": {
+          "reference": "Patient/c4f7fd38-2ea3-487b-bcd1-990397cdde46"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1008696",
+              "display": "dalteparin / dihydroergotamine"
+            }
+          ],
+          "text": "dalteparin / dihydroergotamine"
+        },
+        "authoredOn": "1998-12-12T17:00:00.000Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "resourceType": "Bundle",
+  "id": "008 Thrombotic Event NOT Case - anticoagulant not within week",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b96b04d9-78ed-4803-bf53-18297282362d",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "44348297-e60b-44f0-800d-9f17f2b189ed",
+        "subject": {
+          "reference": "Patient/b96b04d9-78ed-4803-bf53-18297282362d"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "453.42",
+              "display": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity"
+            }
+          ],
+          "text": "Acute venous embolism and thrombosis of deep vessels of distal lower extremity"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "f3f13d7d-1639-46c2-b28d-1f4fe9009c42",
+        "subject": {
+          "reference": "Patient/b96b04d9-78ed-4803-bf53-18297282362d"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1008696",
+              "display": "dalteparin / dihydroergotamine"
+            }
+          ],
+          "text": "dalteparin / dihydroergotamine"
+        },
+        "authoredOn": "1999-12-12T17:00:00.000Z"
+      }
+    }
+  ]
+}

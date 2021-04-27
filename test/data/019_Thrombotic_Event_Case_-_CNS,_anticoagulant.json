@@ -1,0 +1,86 @@
+{
+  "resourceType": "Bundle",
+  "id": "019 Thrombotic Event Case - CNS, anticoagulant",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f62130ca-e910-48e9-a39d-471f5aceb943",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bfb3c759-6a6e-4c36-aaca-8d61603202be",
+        "subject": {
+          "reference": "Patient/f62130ca-e910-48e9-a39d-471f5aceb943"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "437.6",
+              "display": "Nonpyogenic thrombosis of intracranial venous sinus"
+            }
+          ],
+          "text": "Nonpyogenic thrombosis of intracranial venous sinus"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "8a0f1769-e483-4394-9db2-122d178f9652",
+        "subject": {
+          "reference": "Patient/f62130ca-e910-48e9-a39d-471f5aceb943"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1008696",
+              "display": "dalteparin / dihydroergotamine"
+            }
+          ],
+          "text": "dalteparin / dihydroergotamine"
+        },
+        "authoredOn": "1998-12-12T17:00:00.000Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "resourceType": "Bundle",
+  "id": "009 Thrombotic Event Case - PE, anticoagulant, CT chest",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d593bfe7-78e0-4505-9fff-fbfaf84732d7",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "84d61af3-3498-4a85-9117-80ab30a34946",
+        "subject": {
+          "reference": "Patient/d593bfe7-78e0-4505-9fff-fbfaf84732d7"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I26.99",
+              "display": "Other pulmonary embolism without acute cor pulmonale"
+            }
+          ],
+          "text": "Other pulmonary embolism without acute cor pulmonale"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "65de728b-5023-4b9b-802b-7fdcf7231329",
+        "subject": {
+          "reference": "Patient/d593bfe7-78e0-4505-9fff-fbfaf84732d7"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1008696",
+              "display": "dalteparin / dihydroergotamine"
+            }
+          ],
+          "text": "dalteparin / dihydroergotamine"
+        },
+        "authoredOn": "1998-12-12T17:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "723a64c8-5fb9-4d3d-9a09-b9b257be23a7",
+        "subject": {
+          "reference": "Patient/d593bfe7-78e0-4505-9fff-fbfaf84732d7"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "71250",
+              "display": "Computed tomography, thorax; without contrast material"
+            }
+          ],
+          "text": "Computed tomography, thorax; without contrast material"
+        },
+        "performedDateTime": "1998-12-16T16:00:00.000Z"
+      }
+    }
+  ]
+}

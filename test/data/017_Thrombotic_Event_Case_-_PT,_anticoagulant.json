@@ -1,0 +1,86 @@
+{
+  "resourceType": "Bundle",
+  "id": "017 Thrombotic Event Case - PT, anticoagulant",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1780a474-8925-4ff2-b09b-f2c3da733ca4",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8f6951e3-ac61-469c-91b8-d94f6f1adb9d",
+        "subject": {
+          "reference": "Patient/1780a474-8925-4ff2-b09b-f2c3da733ca4"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "663.63",
+              "display": "Vascular lesions of cord complicating labor and delivery, antepartum condition or complication"
+            }
+          ],
+          "text": "Vascular lesions of cord complicating labor and delivery, antepartum condition or complication"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "711bb801-81af-4087-9cb2-49610c5e1b41",
+        "subject": {
+          "reference": "Patient/1780a474-8925-4ff2-b09b-f2c3da733ca4"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1008696",
+              "display": "dalteparin / dihydroergotamine"
+            }
+          ],
+          "text": "dalteparin / dihydroergotamine"
+        },
+        "authoredOn": "1998-12-12T17:00:00.000Z"
+      }
+    }
+  ]
+}

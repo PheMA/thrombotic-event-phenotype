@@ -1,0 +1,151 @@
+{
+  "resourceType": "Bundle",
+  "id": "006 Thrombotic Event NOT Case - stroke missing ecg",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "81c709f9-9feb-4eac-8389-4a69d2c84a00",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1f4bbb74-63fb-4b66-a9b7-7cbb7d2c4cec",
+        "subject": {
+          "reference": "Patient/81c709f9-9feb-4eac-8389-4a69d2c84a00"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I63.012",
+              "display": "Cerebral infarction due to thrombosis of left vertebral artery"
+            }
+          ],
+          "text": "Cerebral infarction due to thrombosis of left vertebral artery"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "a924f8dc-916e-432d-8b1e-3cc0e755f641",
+        "subject": {
+          "reference": "Patient/81c709f9-9feb-4eac-8389-4a69d2c84a00"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191",
+              "display": "Aspirin"
+            }
+          ],
+          "text": "Aspirin"
+        },
+        "authoredOn": "1998-12-12T17:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "65ba27b9-82ac-4534-aa64-029e4e73f09a",
+        "subject": {
+          "reference": "Patient/81c709f9-9feb-4eac-8389-4a69d2c84a00"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "93880",
+              "display": "Duplex scan of extracranial arteries; complete bilateral study"
+            }
+          ],
+          "text": "Duplex scan of extracranial arteries; complete bilateral study"
+        },
+        "performedDateTime": "1998-12-15T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "1f1bdf76-2be9-48b3-aa88-d868a69d62f3",
+        "subject": {
+          "reference": "Patient/81c709f9-9feb-4eac-8389-4a69d2c84a00"
+        },
+        "status": "finished",
+        "period": {
+          "start": "1998-12-15T16:00:00.000Z"
+        },
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16879004",
+              "display": "Free-standing neurology clinic"
+            }
+          ],
+          "text": "Free-standing neurology clinic"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f6dcd9e7-9b20-4466-a76c-fe2844a5dff2",
+        "subject": {
+          "reference": "Patient/81c709f9-9feb-4eac-8389-4a69d2c84a00"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "70450",
+              "display": "Computed tomography, head or brain; without contrast material"
+            }
+          ],
+          "text": "Computed tomography, head or brain; without contrast material"
+        },
+        "performedDateTime": "1998-12-16T16:00:00.000Z"
+      }
+    }
+  ]
+}

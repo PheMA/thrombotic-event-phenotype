@@ -1,0 +1,84 @@
+{
+  "resourceType": "Bundle",
+  "id": "010 Thrombotic Event NOT Case - PE with no anticoagulant",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "89a8bd97-e9f3-499e-abf5-f1bf85cc1b21",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "160abf85-6999-4ac1-a4a0-e5cceec150ac",
+        "subject": {
+          "reference": "Patient/89a8bd97-e9f3-499e-abf5-f1bf85cc1b21"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I26.99",
+              "display": "Other pulmonary embolism without acute cor pulmonale"
+            }
+          ],
+          "text": "Other pulmonary embolism without acute cor pulmonale"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2d1c439a-6fbc-4f4e-80e0-50995e2ce366",
+        "subject": {
+          "reference": "Patient/89a8bd97-e9f3-499e-abf5-f1bf85cc1b21"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "71250",
+              "display": "Computed tomography, thorax; without contrast material"
+            }
+          ],
+          "text": "Computed tomography, thorax; without contrast material"
+        },
+        "performedDateTime": "1998-12-16T16:00:00.000Z"
+      }
+    }
+  ]
+}

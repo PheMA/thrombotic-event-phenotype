@@ -1,0 +1,134 @@
+{
+  "resourceType": "Bundle",
+  "id": "011 Thrombotic Event Case - MST, anticoagulant, sonogram, d-dimer fibrin",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b85c2660-4893-46ef-a61a-3dce58e60da4",
+        "name": [
+          {
+            "given": [
+              "Joe"
+            ],
+            "family": "Smith"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1958-07-16"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bede1d6a-a4c3-41e7-b172-a53814d82a8e",
+        "subject": {
+          "reference": "Patient/b85c2660-4893-46ef-a61a-3dce58e60da4"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I81",
+              "display": "Portal vein thrombosis"
+            }
+          ],
+          "text": "Portal vein thrombosis"
+        },
+        "onsetDateTime": "1998-12-12T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "e7035a80-d510-4079-a00f-8a007ce6707c",
+        "subject": {
+          "reference": "Patient/b85c2660-4893-46ef-a61a-3dce58e60da4"
+        },
+        "status": "completed",
+        "intent": "order",
+        "doNotPerform": false,
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1008696",
+              "display": "dalteparin / dihydroergotamine"
+            }
+          ],
+          "text": "dalteparin / dihydroergotamine"
+        },
+        "authoredOn": "1998-12-12T17:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "398de85d-adfe-4940-8d35-52e7a9586daa",
+        "subject": {
+          "reference": "Patient/b85c2660-4893-46ef-a61a-3dce58e60da4"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "76999",
+              "display": "Unlisted ultrasound procedure (eg, diagnostic, interventional)"
+            }
+          ],
+          "text": "Unlisted ultrasound procedure (eg, diagnostic, interventional)"
+        },
+        "performedDateTime": "1998-12-16T16:00:00.000Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a738f1ea-7c3e-4863-a311-3bd9d316b809",
+        "subject": {
+          "reference": "Patient/b85c2660-4893-46ef-a61a-3dce58e60da4"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "48065-7",
+              "display": "Fibrin D-dimer FEU"
+            }
+          ],
+          "text": "Fibrin D-dimer FEU"
+        },
+        "valueQuantity": {
+          "value": 350,
+          "unit": "ng/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ng/mL"
+        },
+        "effectiveDateTime": "1998-12-12T18:00:00.000Z"
+      }
+    }
+  ]
+}
